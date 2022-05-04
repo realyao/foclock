@@ -8,8 +8,8 @@ $(document).ready(function() {
     if (mobilecheck()) {
         $('html').addClass('mobile');
     } else {
-        var en = ['Home', 'Projects', 'Professions', 'Education',
-                'Internship', 'Current Position', 'Contact Me'];
+        var en = ['首页', '功能', '评价', '社区',
+                '开源', '作者'];
         var cn = ['首页', '项目', '技能', '教育', '实习', '供职', '联系'];
         var isCn = window.location.href.indexOf('cn.html') >= 0;
         $('.section').addClass('initing');
